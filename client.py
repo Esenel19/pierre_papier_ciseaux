@@ -32,7 +32,6 @@ class Button:
         else:
             return False
 
-
 def redrawWindow(win, game, p):
     win.fill((128,128,128))
 
