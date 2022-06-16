@@ -80,7 +80,7 @@ def redrawWindow(win, game, p):
     pygame.display.update()
 
 
-btns = [Button("Pierre", 50, 500, (0,0,0)), Button("Ciseaux", 250, 500, (255,0,0)), Button("Papier", 450, 500, (0,255,0))]
+btns = [Button("Rock", 50, 500, (0,0,0)), Button("Scissors", 250, 500, (255,0,0)), Button("Paper", 450, 500, (0,255,0))]
 def main():
     run = True
     clock = pygame.time.Clock()
